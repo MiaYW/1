@@ -1,0 +1,132 @@
+@import "_reset.css";
+/*  Color palette
+    -----------------------
+    color       HEX code  RGB code
+    -------------------------------------
+    red:      	#960001	  rgb(150,0,1)
+    yellow:     #e2e55f	  rgb(226,229,95)
+    green:      #96c25f	  rgb(150,194,95)
+    blue:       #5582c6	  rgb(85,130,198)
+    purple: 	  #79519f	  rgb(121,81,159) 
+
+    fonts
+    -----------------------
+    headings:   Cabin
+    body:       Roboto
+
+    font-sizes:
+    -----------------------
+    h1:   70px
+    h2:   36px
+    h3    24px
+    body: 17px (all other text)
+
+    breakpoints
+    -----------------------
+    desktop: 1200px
+    
+    max-width of the content is 1400px
+*/
+
+/* Add all of your styles here */
+
+body {
+  background: #5582c6;
+}
+.background {
+  padding: 20em;
+  background: url(/images/toystory4_wallpaper.jpg) no-repeat center/cover;
+  width: vw;
+}
+.mainbody {
+  margin: 0 100px;
+  height: auto;
+}
+
+.headerimg {
+  background-image: url(/images/toystory4_movie_poster.jpeg);
+  width: 300px;
+  height: 400px;
+  float: left;
+  position: relative;
+  top: -100px;
+}
+.maintext {
+  width: vw;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 10px;
+}
+h2 {
+  color: #960001;
+  font-size: 36px;
+  font-weight: bold;
+  border-bottom: solid yellow;
+  padding: 10px 0;
+}
+.name {
+  color: #960001;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 0 5px 0;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  color: purple;
+}
+.bio {
+  color: white;
+  font-size: 17px;
+  text-align: left;
+  margin: 10px 0 0 0;
+}
+
+.synopsis {
+  color: white;
+  font-size: 17px;
+  padding: 20px 0 0 0;
+}
+.footer {
+  background: #e2e55f;
+  color: red;
+  padding: 20px 0 20px 100px;
+}
+
+.image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 0 20px 20px 0;
+}
+h1 {
+  color: #960001;
+  font-weight: bold;
+  font-size: 70px;
+  padding: 5px;
+  background: white;
+  display: inline-block;
+}
+.part {
+  clear: both;
+}
+button {
+  color: white;
+  background: #79519f;
+  padding: 5px 100px;
+  display: block;
+}
+#textarea {
+  height: 25px;
+  width: 245px;
+  margin: 10px 0;
+}
+
+#comment {
+  color: white;
+  text-align: center;
+  height: 50px;
+  margin: 20px;
+}
